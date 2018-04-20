@@ -1,0 +1,86 @@
+body, html{
+  margin: 0;
+  padding: 0px;
+  color: #000;
+  background: #2b579a;
+}
+
+#container{
+  width: 960px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #fff;
+
+}
+
+#header{
+  padding: 10px;
+  background: #ddd;
+}
+
+#navbar{
+  padding: 0px 10px; /*padding atas, bawah = 5px || padding kiri, kanan = 10px */
+  background:  #c99;
+  text-align: center;
+  margin: 0;
+
+}
+
+#navbar ul {
+  margin: 0px;
+  list-style-type: none; /* ngilangin simbols*/
+
+  text-align: left;
+}
+
+#navbar li {
+  padding: 20px;
+  margin-left: 0px;
+
+  transition-duration: 3s;
+  display: inline-block; /*tampilkan secara inline */
+
+
+
+}
+li:hover {
+  background-color: aqua;
+}
+#navbar li:first-child {
+}
+
+#main{
+  float: left;
+
+  width: 680px;
+  padding: 10px;
+  min-height: 400px;
+  box-sizing: border-box;
+}
+
+h3 {
+  margin: 0px;
+  border-bottom: 1px solid black;
+}
+
+.Judul{
+  color: blue;
+  font-family: verdana;
+}
+
+#sidebar{
+  float: right;
+  width: 200px;
+  padding: 10px;
+  min-height : 400px;
+  background-color: #6ce26c;
+}
+
+#footer{
+  clear: both; /*menghilangkan float*/
+  background: #cc9;
+  text-align: center;
+
+}

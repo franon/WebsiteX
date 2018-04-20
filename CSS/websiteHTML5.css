@@ -1,0 +1,67 @@
+body, html{
+  margin: 0;
+  padding: 0px;
+  color: #000;
+  background: #2b579a;
+}
+
+#container{
+  width: 960px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #fff;
+
+}
+
+header{
+  padding: 10px;
+  background: #ddd;
+}
+
+nav{
+  padding: 20px 10px; /*padding atas, bawah = 5px || padding kiri, kanan = 10px */
+  background:  #c99;
+  text-align: center;
+  margin: 0;
+
+}
+nav a:hover{
+  transition: 3s;
+  background-color: aqua;
+}
+
+
+main{
+  float: left;
+  margin-right: 100px;
+  width: 680px;
+  padding: 10px;
+  min-height: 400px;
+}
+
+h3 {
+  margin: 0px;
+  border-bottom: 1px solid black;
+}
+
+.Judul{
+  color: blue;
+  font-family: verdana;
+}
+
+aside{
+  float: right;
+  width: 230px;
+  padding: 10px;
+  min-height : 400px;
+  background-color: #6ce26c;
+}
+
+footer{
+  clear: both; /*menghilangkan float*/
+  background: #cc9;
+  text-align: center;
+
+}

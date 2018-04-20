@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+}
+
+.list1{
+  list-style-type: decimal;
+  list-style-position: outside;
+}
+
+.list2{
+  list-style-image: url('');
+}
+
+.list2 li {
+  color: blue;
+  
+}
+
+.list2 li a {
+  color: red;
+}
+
+.list2 li a:hover {
+  color: green;
+  font-size: 30px;
+}
