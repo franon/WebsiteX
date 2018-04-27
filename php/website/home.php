@@ -1,4 +1,4 @@
-<h2 class="judul"> HOME </h2>
-Selamat datang di website sederhana saya. Web ini menggunakan HTML, CSS dan PHP
+<h2 class='judul'>home</h2>
+Selamat datang di web sederhana saya. Web ini dibuat menggunakan HTML, PHP, dan CSS.
 <br>
-Saat ini tanggal <?php echo date ("d M Y"); ?>
+Saat ini tanggal <?php echo date(' d M Y ');?>

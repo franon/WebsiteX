@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container{
+
+  background-color: white;
+}
+
+.bungkus{
+  width: 100%;
+  height: 700px;
+  background-image: url('../img/coffee.jpeg');
+
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  /* filter */
+}
+
+#nav{
+  width: 100%;
+  background-color: transparent;
+  position: fixed;
+  padding: 20px;
+  transition-duration: 1s;
+}
+
+
+#nav-main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+
+#nav-main p {
+  color: #fff;
+  font-size: 50px;
+  position: fixed;
+}
+
+#nav-left{
+  float: left;
+}
+#nav-left a{
+  text-decoration: none;
+  font-family: "futura-pt";
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+  padding: 10px 20px;
+  line-height: 1em;
+}
+#nav-left a:hover{
+  transition: 1s;
+  color: black;
+}
+
+#nav-right{
+  float: right;
+}
+#nav-right a{
+  text-decoration: none;
+  color: #fff;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bold;
+
+  padding: 10px 20px;
+
+}
+#nav-right a:hover{
+  opacity: 0.7;
+  border: 2px solid white;
+}
+
+#sidebar{
+width: 20%;
+float: left;
+padding: 20px;
+background-color: #D7CEC799;
+
+/* Delete this code */
+height: 1929px;
+}
+
+#main{
+width: 80%;
+height: 200px;
+float: right;
+padding: 20px;
+/* Delete this */
+/* height: 800px; */
+}
+
+.judul{
+  font-size: 40px;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column{
+  flex: 25px;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+#img-text{
+  color: brown;
+  text-align: center;
+}
+
+ul{
+
+}
+
+li{
+  list-style-type: none;
+  font-size: 25px;
+
+}
+
+li a {
+  text-decoration: none;
+}

@@ -1,8 +1,7 @@
 <div id="footer">
-  <p>&copy2016 www.websitesaya.com</p>
-</div>
-
-</div>
-
-</body>
-</html>
+			<p>&copy;2016 www.websitesaya.com</p>
+		</div>
+	</div>
+	</body>
+	</html>
+		
