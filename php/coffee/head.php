@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/coffee.css">
 
+    <!-- source -->
+    <script src="../../jquery/jquery-3.3.1.min.js"></script>
+    <script src="../../jquery/jquery.validate.js"></script>
+    <script src="../../jquery/additional-methods.js"></script>
+
     <title>Fox Coffee</title>
   </head>
   <body>

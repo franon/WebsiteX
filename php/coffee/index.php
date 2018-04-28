@@ -25,6 +25,10 @@ if (isset($_GET['hal'])) {
         include 'register.php';
         break;
 
+      case 'success':
+        include 'success.php';
+        break;
+
     default:
       include '404.php';
       break;
@@ -41,5 +45,4 @@ else {
 <?php
 include 'sidebar.php';
 include 'footer.php';
-
  ?>
