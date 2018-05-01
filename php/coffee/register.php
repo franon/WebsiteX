@@ -6,10 +6,11 @@
 <!-- nama -->
 <div class="row-form">
   <div class="form-25">
-    <label for="namax" > Nama </label>
+    <label for="nama"> Nama </label>
   </div>
   <div class="form-75">
-    <input type="text" id="namax" name="namax"placeholder="Masukkan Nama" >
+    <input type="text" id="nama" name="nama" placeholder="Masukkan Nama" class="required">
+    
   </div>
 </div>
 
@@ -19,7 +20,7 @@
     <label for="email" > Email </label>
   </div>
   <div class="form-75">
-    <input type="email" id="email" name="email" placeholder="Masukkan email">
+    <input type="email" id="email" name="email" placeholder="Masukkan email" class="required">
     <span id="feedback"></span>
   </div>
 </div>
@@ -27,19 +28,19 @@
 <!-- Password -->
 <div class="row-form">
   <div class="form-25">
-    <label for="password" > Password </label>
+    <label for="pass1" > Password </label>
   </div>
   <div class="form-75">
-    <input type="password" id="password" name="password" placeholder="Keep Secret!" >
+    <input type="password" id="pass1" name="pass1" placeholder="Masukkan Password!" class="required">
   </div>
 </div>
 <!-- Password -->
 <div class="row-form">
   <div class="form-25">
-    <label for="password_again" > Verif Password </label>
+    <label for="pass2" > Verification Password </label>
   </div>
   <div class="form-75">
-    <input class="left" type="password" id="password_again" name="password_again" placeholder="Keep Secret!" >
+    <input class="left" type="password" id="pass2" name="pass2" placeholder="Masukkan lagi password!" >
   </div>
 </div>
 
@@ -71,16 +72,6 @@
 <div class="row-form">
   <input type="submit" name="submit" value="submit">
 </div>
-
-<?php
-if (isset($_POST['submit'])) {
-  $nm = $_POST['namax'];
-  echo "Selamat $nm anda telah Terdaftar !";
-
-}
-
- ?>
-
 </form>
 
 

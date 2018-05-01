@@ -4,7 +4,7 @@
 
 </div>
 
-</div>
+
 
 <!-- navbar -->
 <script type="text/javascript">
@@ -21,29 +21,36 @@ $(window).scroll(function(e){
     $("#nav").css("color", "#000");
   }
 })
+
+$('#formdaftar').validate({
+  rules:{
+    email:{
+      email:true
+    },
+    pass2:{
+      equalTo:"#pass1"
+    }
+  },
+  messages:{
+    nama:{
+      required:"Nama harus diisi"
+    },
+    email:{
+      required:"Alamat Email harus diisi",
+      email:"Format email tidak valid"
+    },
+    pass1:{
+      required:"Password Harus diisi"
+    },
+    pass2:{
+      equalTo:"Password Tidak Sama"
+    }
+  }
+
+})
+
 })
 </script>
-
-
-<!-- Validasi -->
-<!-- Validasi Nama -->
-<script type="text/javascript">
-$(document).ready(function(){
-  $('#formdaftar').submit(function(){ //Dijalankan Saat form disubmit
-    if($('#namax').val()=='') { //cek nama harus diisi
-      alert('Nama Harus Diisi'); //kursor focus di Nama
-      $('#namax').focus();
-      return false;
-    }
-else {
-      return true;
-    }
-
-  })
-
-})
-</script>
-
 
 
 
