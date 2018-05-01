@@ -70,7 +70,9 @@
 </div>
 
 <div class="row-form">
-  <input type="submit" name="submit" value="submit">
+<button class="button" value="submit" name="submit" style="vertical-align:middle;"> <span> Submit </span></button>
+  <!-- <button class="button" style="vertical-align:middle" value="submit"> <input type="submit" name="submit" value="submit"> </button> -->
+  <!-- <input type="submit" name="submit" value="submit">  -->
 </div>
 </form>
 

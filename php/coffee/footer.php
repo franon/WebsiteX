@@ -1,6 +1,3 @@
-<div id="footer">
-
-</div>
 
 </div>
 
@@ -53,6 +50,11 @@ $('#formdaftar').validate({
 </script>
 
 
+
+<div id="footer">
+<h4>&copy 2018 Fox Coffee. Made with &#10084 By <a href="https://www.instagram.com/franolnsen/">Fran Olnsen</a></h4>
+
+</div>
 
 </body>
 </html>

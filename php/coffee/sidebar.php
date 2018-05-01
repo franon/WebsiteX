@@ -1,15 +1,14 @@
 <!-- sidebar -->
 
     <div id="sidebar">
-      <h2 class="judul"> Profil </h2>
+      <h2 class="judul"> Profile </h2>
       <hr>
-       <p>Fox Coffee adalah Copy terbaik di Mars diracik oleh Qxnag Xeg.</p>
-
+       <p>Fox Coffee adalah Kopi terbaik di Jakarta yang diracik</p>
       <br>
       <br>
       <br>
 
-      <h2 class="judul">Kategori</h2>
+      <h2 class="judul">Regist Now!</h2>
       <hr>
       <ul>
         <li> <a href="index.php?hal=register"> Daftar </a> </li>
