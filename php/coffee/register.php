@@ -69,9 +69,20 @@
 </div>
 
 <div class="row-form">
-  <input type="submit" name="kirim" value="kirim">
+  <input type="submit" name="submit" value="submit">
 </div>
+
+<?php
+if (isset($_POST['submit'])) {
+  $nm = $_POST['namax'];
+  echo "Selamat $nm anda telah Terdaftar !";
+
+}
+
+ ?>
+
 </form>
+
 
 
 

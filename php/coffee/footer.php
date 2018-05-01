@@ -24,6 +24,7 @@ $(window).scroll(function(e){
 })
 </script>
 
+
 <!-- Validasi -->
 <!-- Validasi Nama -->
 <script type="text/javascript">
@@ -43,23 +44,8 @@ else {
 })
 </script>
 
-<script type="text/javascript">
 
-jQuery.validator.setDefaults({
-  debug: true,
-  success: "valid"
-});
 
-$("#formdaftar").validate({
-  rules: {
-    password: "required",
-    password_again: {
-      equalTo: "#password"
-    }
-  }
-});
-
-</script>
 
 </body>
 </html>

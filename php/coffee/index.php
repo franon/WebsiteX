@@ -17,9 +17,9 @@ if (isset($_GET['hal'])) {
         include 'gallery.php';
         break;
 
-    case 'about':
-      include 'about.php';
-      break;
+      case 'about':
+        include 'about.php';
+        break;
 
       case 'register':
         include 'register.php';
